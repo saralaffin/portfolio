@@ -231,6 +231,10 @@ h6 {
   font-weight: 300;
   font-size: 1.2rem;
 }
+.caption-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+}
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
