@@ -92,6 +92,9 @@ h6 {
   margin: 0;
   padding: 0;
 }
+.masthead > .container {
+  height: 70vh;
+}
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
