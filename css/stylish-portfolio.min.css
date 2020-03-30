@@ -91,9 +91,13 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: rgba(255, 255, 255, 0.7);
 }
 .masthead > .container {
   height: 70vh;
+}
+#meet-me-button {
+  opacity: 85%;
 }
 @media (min-width: 992px) {
   .masthead {
