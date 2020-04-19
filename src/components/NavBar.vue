@@ -1,22 +1,13 @@
 <template>
-  <div>
-    <div class="navbar">
-      <template v-for="section in sections">
-        <a
-          :key="section"
-          :href="'#' + section"
-          :class="{ isActive: section === activeSection }"
-          >{{ section }}</a
-        >
-      </template>
-      <!-- <a href="#about" :class="{ isActive: 'about' === activeSection }">Intro</a>
-    <a href="#background">My Story</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a> -->
-      <!-- <p>{{ scrollPosition }}</p>
-    <p>{{ activeSection }}</p> -->
-    </div>
+  <div class="navbar">
+    <template v-for="section in sections">
+      <a
+        :key="section"
+        :href="'#' + section"
+        :class="{ isActive: section === activeSection }"
+        >{{ titles[section] }}</a
+      >
+    </template>
   </div>
 </template>
 
@@ -26,6 +17,13 @@ export default {
   data() {
     return {
       sections: ["about", "background", "skills", "projects", "contact"],
+      titles: {
+        about: "Intro",
+        background: "My Story",
+        skills: "Skills",
+        projects: "Projects",
+        contact: "Contact",
+      },
       activeSection: "",
     };
   },
@@ -53,10 +51,9 @@ export default {
 
 <style scoped>
 .navbar {
+  transform-origin: top left;
+  transform: translateX(100vw) rotate(90deg);
   position: fixed;
-  top: 0;
-  left: 0;
-  transform: translate(45vw, 50vh) rotate(90deg);
   z-index: 1;
 }
 a:first-child {
