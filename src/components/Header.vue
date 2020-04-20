@@ -18,7 +18,6 @@ export default {
 .header {
   background-image: url("../assets/mesaverde.jpg");
   height: 100vh;
-  width: 100vw;
   background-position: center;
   background-size: cover;
   display: flex;

@@ -81,4 +81,16 @@ a {
   opacity: 100%;
   padding-bottom: 0.5em;
 }
+@media only screen and (min-width: 768px) {
+  a {
+    padding: 1.2em 1em 0.8em 1em;
+    opacity: 40%;
+  }
+  .navbar {
+    padding-top: 1.2em;
+  }
+  .isActive {
+    padding: 1.5em;
+  }
+}
 </style>

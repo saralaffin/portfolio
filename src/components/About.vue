@@ -36,7 +36,6 @@ h2 {
 }
 p {
   text-align: center;
-  padding: 1em;
   margin-top: 4vh;
 }
 p,

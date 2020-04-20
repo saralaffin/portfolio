@@ -63,9 +63,6 @@ h2 {
   margin-bottom: 10vh;
   color: var(--white);
 }
-p {
-  padding: 1em 2em;
-}
 .link-container {
   display: flex;
   flex-wrap: wrap;

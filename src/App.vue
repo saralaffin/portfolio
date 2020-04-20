@@ -67,10 +67,16 @@ a {
   text-align: center;
   max-width: 80vw;
 }
-@media only screen and (min-width: 780px) {
+p {
+  padding: 1em 2em;
+}
+@media only screen and (min-width: 768px) {
   h1 {
     font-size: 10vh;
     margin-top: 11vh;
+  }
+  p {
+    padding: 1em 4em;
   }
 }
 </style>

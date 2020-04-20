@@ -18,14 +18,14 @@
     />
     <project
       id="hanoi"
-      description="Front end project using HTML, CSS, and vanilla JavaScript to build a front-end game"
+      description="Built front end game using HTML, CSS, and vanilla JavaScript"
       githubURL="https://github.com/saralaffin/front-end-game-tower-of-hanoi"
       deployedURL="https://saralaffin.github.io/front-end-game-tower-of-hanoi/"
     />
     <project
       id="clean"
       description="Utilized HTML and custom CSS to build a responsive website
-                    showcasing service for a cleaning company."
+                    showcasing service for a cleaning company"
       githubURL="https://github.com/saralaffin/responsive-website"
       deployedURL="https://saralaffin.github.io/responsive-website/"
     />

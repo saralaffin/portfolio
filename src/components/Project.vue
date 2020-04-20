@@ -26,9 +26,9 @@ export default {
 <style scoped>
 .project {
   background-color: var(--beige);
-  background-position: center;
+  background-position: top;
   background-size: cover;
-  height: 60vw;
+  height: 33vh;
   border: solid var(--light-blue) 5px;
   margin: 1em 2em 1em 2em;
   display: flex;
@@ -44,6 +44,9 @@ p {
   margin: 1em 2em;
   padding: 0.5em;
   color: var(--white);
+}
+p,
+.link-container {
   backdrop-filter: blur(5px) brightness(50%);
 }
 .link-container {
@@ -60,5 +63,23 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .project {
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    width: 80vw;
+    height: 40vh;
+  }
+  p {
+    width: 35%;
+    padding: 1em;
+    margin: 0;
+    height: 18vh;
+  }
+  .link-container {
+    flex-direction: column;
+  }
 }
 </style>
