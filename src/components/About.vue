@@ -8,11 +8,9 @@
       Washington, DC. This portfolio showcases a few of my projects.
     </p>
     <div class="link-container">
-      <a href="#skills">Skills</a>
       <a href="Sara_Laffin_Resume.pdf" download>
         Resume
       </a>
-      <a href="#background">Background</a>
     </div>
   </div>
 </template>

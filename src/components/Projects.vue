@@ -1,7 +1,7 @@
 <template>
   <div id="projects">
     <h2>
-      Recent Projects
+      Projects
     </h2>
     <project
       id="pawsitivity"
@@ -12,20 +12,20 @@
     />
     <project
       id="cotripper"
-      description="Contributing to an open source, full stack travel application for single mothers built using Django and React"
+      description="Contributed to an open source, full stack travel application for single mothers built using Django and React"
       githubURL="https://github.com/CotripperPlatform/CoTrip"
       deployedURL="https://cotripper.netlify.app/"
     />
     <project
       id="hanoi"
-      description="First front-end project using HTML, CSS, and vanilla JavaScript to build a front-end game"
+      description="Front end project using HTML, CSS, and vanilla JavaScript to build a front-end game"
       githubURL="https://github.com/saralaffin/front-end-game-tower-of-hanoi"
       deployedURL="https://saralaffin.github.io/front-end-game-tower-of-hanoi/"
     />
     <project
       id="clean"
       description="Utilized HTML and custom CSS to build a responsive website
-                    showcasing service for a cleaning company. My first General Assembly project!"
+                    showcasing service for a cleaning company."
       githubURL="https://github.com/saralaffin/responsive-website"
       deployedURL="https://saralaffin.github.io/responsive-website/"
     />

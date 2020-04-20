@@ -3,6 +3,9 @@
     <h2>
       Keep in touch!
     </h2>
+    <a href="Sara_Laffin_Resume.pdf" download>
+      Resume
+    </a>
     <p>I'm looking for full time work</p>
     <div class="contact-links">
       <a href="https://www.linkedin.com/in/saralaffin"
@@ -29,10 +32,13 @@ export default {
 h2 {
   color: var(--dark-blue);
 }
+p {
+  padding-top: 2em;
+}
 .contact-links {
   display: flex;
 }
-a {
+.contact-links a {
   border-radius: 10vh;
   height: 10vh;
   width: 10vh;

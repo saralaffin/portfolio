@@ -17,7 +17,7 @@
     <sub-skills
       icon="icon-envelope-alt"
       title="and more!"
-      content="APIs, Github, Heroku, MongoDB, Netlify, PostgreSQL, Responsive
+      content="APIs, Github, Heroku, MongoDB, Netlify, PostgreSQL, Rapid Prototyping, Responsive
               Design, RESTful API, Storybook, Ubuntu Linux, Visual Studio Code"
     />
   </div>

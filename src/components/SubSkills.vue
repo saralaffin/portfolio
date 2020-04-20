@@ -44,6 +44,6 @@ i {
 }
 p {
   text-align: center;
-  padding: 1em;
+  padding: 1em 2em 2em 2em;
 }
 </style>

@@ -28,15 +28,23 @@ export default {
   background-color: var(--beige);
   background-position: center;
   background-size: cover;
-  height: 100vw;
+  height: 60vw;
+  border: solid var(--light-blue) 5px;
+  margin: 1em 2em 1em 2em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 h2 {
   color: var(--white);
   opacity: 1;
+}
+p {
+  margin: 1em 2em;
+  padding: 0.5em;
+  color: var(--white);
+  backdrop-filter: blur(5px) brightness(50%);
 }
 .link-container {
   display: flex;
