@@ -55,6 +55,7 @@ export default {
   transform: translateX(100vw) rotate(90deg);
   position: fixed;
   z-index: 1;
+  width: 100vh;
 }
 a:first-child {
   background-color: red;

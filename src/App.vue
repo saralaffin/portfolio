@@ -54,8 +54,12 @@ h2 {
   color: var(--white);
   margin-top: 15vh;
   text-align: center;
-  margin-left: 3vw;
-  margin-right: 3vw;
+}
+h1,
+h2,
+p {
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 
 a {
@@ -78,5 +82,10 @@ p {
   p {
     padding: 1em 4em;
   }
+}
+@media only screen and (min-width: 992px) {
+  /* p {
+    padding: 1em 8em;
+  } */
 }
 </style>

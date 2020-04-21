@@ -33,10 +33,10 @@ h4 {
 i {
   background-color: var(--dark-blue);
   color: var(--white);
-  border-radius: 10vh;
-  height: 10vh;
-  width: 10vh;
-  font-size: 4vh;
+  border-radius: 8vw;
+  height: 8vw;
+  width: 8vw;
+  font-size: 4vw;
   margin: 1vh;
   display: flex;
   justify-content: center;
@@ -45,5 +45,14 @@ i {
 p {
   text-align: center;
   padding-bottom: 2em;
+}
+@media only screen and (min-width: 992px) {
+  .sub-skills {
+    width: 25vw;
+  }
+  p {
+    padding: 1em 2em;
+    margin: 0;
+  }
 }
 </style>

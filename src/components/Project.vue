@@ -28,12 +28,12 @@ export default {
   background-color: var(--beige);
   background-position: top;
   background-size: cover;
-  height: 33vh;
+  height: 50vh;
   border: solid var(--light-blue) 5px;
   margin: 1em 2em 1em 2em;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 h2 {
@@ -55,16 +55,16 @@ p,
   justify-content: center;
 }
 a {
-  margin: 0.2em;
-  font-size: 5vh;
-  width: 7vh;
-  height: 7vh;
-  padding: 0.2em;
+  margin: 1vw;
+  height: 8vw;
+  width: 8vw;
+  font-size: 5vw;
+  padding: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and(max-width: 992px) {
   .project {
     flex-direction: row;
     justify-content: left;
@@ -80,6 +80,19 @@ a {
   }
   .link-container {
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .project {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  p {
+    width: 20vw;
+    padding: 1em;
+    margin: 0;
   }
 }
 </style>

@@ -3,23 +3,25 @@
     <h2>
       Skills
     </h2>
-    <sub-skills
-      icon="icon-pencil"
-      title="Languages"
-      content="HTML, CSS, JavaScript, Python, SQL"
-    />
-    <sub-skills
-      icon="icon-edit"
-      title="Frameworks/libraries"
-      content="Bootstrap, Django, Express, Flask, Git, MERN Stack, Mongoose,
+    <div class="skills-flex">
+      <sub-skills
+        icon="icon-pencil"
+        title="Languages"
+        content="HTML, CSS, JavaScript, Python, SQL"
+      />
+      <sub-skills
+        icon="icon-edit"
+        title="Frameworks/libraries"
+        content="Bootstrap, Django, Express, Flask, Git, MERN Stack, Mongoose,
               Node.js, Peewee, React, Vue"
-    />
-    <sub-skills
-      icon="icon-envelope-alt"
-      title="and more!"
-      content="APIs, Github, Heroku, MongoDB, Netlify, PostgreSQL, Rapid Prototyping, Responsive
+      />
+      <sub-skills
+        icon="icon-envelope-alt"
+        title="and more!"
+        content="APIs, Github, Heroku, MongoDB, Netlify, PostgreSQL, Rapid Prototyping, Responsive
               Design, RESTful API, Storybook, Ubuntu Linux, Visual Studio Code"
-    />
+      />
+    </div>
   </div>
 </template>
 
@@ -43,5 +45,10 @@ export default {
 }
 h2 {
   color: var(--dark-blue);
+}
+@media only screen and (min-width: 992px) {
+  .skills-flex {
+    display: flex;
+  }
 }
 </style>
