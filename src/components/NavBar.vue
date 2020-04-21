@@ -74,18 +74,18 @@ a:nth-child(5) {
 }
 a {
   padding: 0.2em;
-  opacity: 60%;
+  opacity: 0.6;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
 .isActive {
-  opacity: 100%;
+  opacity: 1;
   padding-bottom: 0.5em;
 }
 @media only screen and (min-width: 768px) {
   a {
     padding: 1.2em 1em 0.8em 1em;
-    opacity: 40%;
+    opacity: 0.4;
   }
   .navbar {
     padding-top: 1.2em;
