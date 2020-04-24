@@ -47,6 +47,9 @@ export default {
   margin: 0;
   font-family: "Courier New", Courier, monospace;
 }
+article {
+  min-height: 100vh;
+}
 h1,
 h2 {
   font-size: 6vh;

@@ -1,5 +1,5 @@
 <template>
-  <div id="skills">
+  <article id="skills">
     <h2>
       Skills
     </h2>
@@ -22,7 +22,7 @@
               Design, RESTful API, Storybook, Ubuntu Linux, Visual Studio Code"
       />
     </div>
-  </div>
+  </article>
 </template>
 
 <script>

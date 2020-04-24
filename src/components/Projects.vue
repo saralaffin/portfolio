@@ -1,5 +1,5 @@
 <template>
-  <div id="projects">
+  <article id="projects">
     <h2>
       Projects
     </h2>
@@ -31,7 +31,7 @@
         deployedURL="https://saralaffin.github.io/responsive-website/"
       />
     </div>
-  </div>
+  </article>
 </template>
 
 <script>

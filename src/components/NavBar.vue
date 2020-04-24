@@ -29,7 +29,7 @@ export default {
   },
   mounted() {
     let observer = new IntersectionObserver(this.handler, {
-      threshold: 0.1, //trying to fix a bug, "projects" doesn't highlight after scolling up from contact section
+      threshold: 0.5,
     });
     this.sections.forEach((section) => {
       observer.observe(document.getElementById(section));

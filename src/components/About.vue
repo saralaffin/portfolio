@@ -1,5 +1,5 @@
 <template>
-  <div id="about">
+  <article id="about">
     <h2>
       I've learned a lot over the past few months!
     </h2>
@@ -12,7 +12,7 @@
         Resume
       </a>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div id="contact">
+  <article id="contact">
     <h2>
       Keep in touch!
     </h2>
@@ -13,7 +13,7 @@
       ></a>
       <a href="https://github.com/saralaffin"><i class="icon-github"></i></a>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>

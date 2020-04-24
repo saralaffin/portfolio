@@ -1,5 +1,5 @@
 <template>
-  <div id="background">
+  <article id="background">
     <h2>
       I'm a problem solver
     </h2>
@@ -39,7 +39,7 @@
       </p>
       <i class="icon-lightbulb"></i>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>
