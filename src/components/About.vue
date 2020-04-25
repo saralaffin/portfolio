@@ -17,7 +17,7 @@
           With a master's in engineering and a few years serving with
           Americorps, I bring hard work and an analytical mind to every team.
         </p>
-        <a href="Sara_Laffin_Resume.pdf" download>
+        <a href="Sara_Laffin_Resume.pdf" target="_blank">
           Resume
         </a>
       </div>

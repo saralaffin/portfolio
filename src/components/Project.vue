@@ -4,8 +4,8 @@
       {{ description }}
     </p>
     <div class="link-container">
-      <a :href="githubURL"><i class="icon-github"></i></a>
-      <a :href="deployedURL">
+      <a :href="githubURL" target="_blank"><i class="icon-github"></i></a>
+      <a :href="deployedURL" target="_blank">
         <i class="icon-share"></i>
       </a>
     </div>

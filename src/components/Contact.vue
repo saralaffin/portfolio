@@ -3,15 +3,17 @@
     <h2>
       Keep in touch!
     </h2>
-    <a href="Sara_Laffin_Resume.pdf" download>
+    <a href="Sara_Laffin_Resume.pdf" target="_blank">
       Resume
     </a>
     <p>I'm looking for full time work</p>
     <div class="contact-links">
-      <a href="https://www.linkedin.com/in/saralaffin"
+      <a href="https://www.linkedin.com/in/saralaffin" target="_blank"
         ><i class="icon-linkedin"></i
       ></a>
-      <a href="https://github.com/saralaffin"><i class="icon-github"></i></a>
+      <a href="https://github.com/saralaffin" target="_blank"
+        ><i class="icon-github"></i
+      ></a>
     </div>
   </article>
 </template>
