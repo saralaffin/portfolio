@@ -3,14 +3,24 @@
     <h2>
       I've learned a lot over the past few months!
     </h2>
-    <p>
-      I've just graduated from a coding bootcamp, General Assembly, in
-      Washington, DC. This portfolio showcases a few of my projects.
-    </p>
-    <div class="link-container">
-      <a href="Sara_Laffin_Resume.pdf" download>
-        Resume
-      </a>
+    <div class="content-container">
+      <img
+        src="../assets/GA13Feb_Linked-18.jpg"
+        alt="Sara Laffin's profile picture"
+      />
+      <div class="text-container">
+        <p>
+          I've just graduated from a coding bootcamp, General Assembly, in
+          Washington, DC. This portfolio showcases a few of my projects.
+        </p>
+        <p>
+          With a master's in engineering and a few years serving with
+          Americorps, I bring hard work and an analytical mind to every team.
+        </p>
+        <a href="Sara_Laffin_Resume.pdf" download>
+          Resume
+        </a>
+      </div>
     </div>
   </article>
 </template>
@@ -18,9 +28,6 @@
 <script>
 export default {
   name: "About",
-  props: {
-    msg: String,
-  },
 };
 </script>
 
@@ -34,20 +41,40 @@ export default {
 h2 {
   color: var(--dark-blue);
 }
+img {
+  width: 25%;
+  height: 25%;
+  border-radius: 100%;
+}
 p {
   text-align: center;
-  margin-top: 4vh;
+  width: 80vw;
 }
-p,
-.link-container {
-  margin-bottom: 10vh;
-}
-.link-container {
+
+.content-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 a {
-  margin: 0.2em;
+  width: fit-content;
+}
+@media only screen and (min-width: 768px) {
+  .content-container {
+    flex-direction: row;
+  }
+  p {
+    text-align: center;
+    margin-bottom: 1.5em;
+    padding: 0;
+    width: 30vw;
+  }
 }
 </style>

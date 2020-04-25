@@ -38,9 +38,6 @@
 import Project from "./Project.vue";
 export default {
   name: "Projects",
-  props: {
-    msg: String,
-  },
   components: {
     Project,
   },
@@ -54,6 +51,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.projects-grid {
+  margin: 1em 2em 1em 2em;
 }
 h2 {
   color: var(--white);
@@ -70,6 +70,33 @@ h2 {
 }
 #clean {
   background-image: url("../assets/responsive-website.png");
+}
+@media only screen and (min-width: 768px) {
+  .projects-grid {
+    width: 80vw;
+    height: 80vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 1em;
+    margin: 1em;
+  }
+  #pawsitivity {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+  }
+  #hanoi {
+    grid-column: 4 / span 2;
+    grid-row: 1 / span 3;
+  }
+  #clean {
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 3;
+  }
+  #cotripper {
+    grid-column: 3 / span 3;
+    grid-row: 4 / span 3;
+  }
 }
 @media only screen and (min-width: 992px) {
   .projects-grid {

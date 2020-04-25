@@ -7,15 +7,13 @@
       <p>
         I've always been drawn to fixing and creating. As a child, I enjoyed
         building things with my dad. In high school, I fell in love with modular
-        origami. As you may be aware, any building endeavor comes with a set of
-        problems to solve.
+        origami.
       </p>
       <i class="icon-wrench"></i>
       <p>
         I studied marine engineering in college, earning my Masters and
-        Bachelors from the University of Michigan. The problem sets, labs, and
-        projects were seemingly endless, but success came in the form of all
-        A's, Summa Cum Laude.
+        Bachelors from the University of Michigan. Success came in the form of
+        all A's, Summa Cum Laude.
       </p>
       <i class="icon-book"></i>
       <p>
@@ -26,10 +24,9 @@
       <i class="icon-fire"></i>
       <p>
         Next, I tried something more hands-on. 'Sharpened a different saw', if
-        you will. I spent 3 seasons with Americorps, mainly on chainsaw crews
-        out in Colorado. Running a chainsaw, and leading crews, presented their
-        own obstacles that helped me grow and solve problems in unimaginable
-        ways.
+        you will. I spent 3 seasons on conservation crews out in Colorado.
+        Running a chainsaw, and leading crews, presented their own obstacles
+        that helped me grow and solve problems in unimaginable ways.
       </p>
       <i class="icon-leaf"></i>
       <p>
@@ -44,10 +41,7 @@
 
 <script>
 export default {
-  name: "About",
-  props: {
-    msg: String,
-  },
+  name: "Background",
 };
 </script>
 
@@ -78,29 +72,28 @@ a {
 }
 @media only screen and (min-width: 992px) {
   p {
-    width: 30vw;
-    min-height: 10vw;
-    padding: 0;
+    width: 588px;
+    padding-left: 16px;
     margin: 0;
     text-align: left;
   }
   p:first-child {
-    margin-left: 10vw;
+    margin-left: 80px;
   }
   .text-container {
-    width: 45vw;
+    width: 668px;
     display: flex;
     flex-wrap: wrap;
   }
   i {
     background-color: var(--white);
     color: var(--dark-blue);
-    border-radius: 8vw;
-    height: 8vw;
-    width: 8vw;
-    font-size: 4vw;
-    margin: 1vw;
-    margin-top: -10vw;
+    border-radius: 100%;
+    height: 64px;
+    width: 64px;
+    font-size: 32px;
+    margin: 8px;
+    margin-top: -64px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -30,7 +30,6 @@ export default {
   background-size: cover;
   height: 50vh;
   border: solid var(--light-blue) 5px;
-  margin: 1em 2em 1em 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,6 +79,12 @@ a {
   }
   .link-container {
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .project {
+    width: 100%;
+    height: 100%;
   }
 }
 @media only screen and (min-width: 992px) {

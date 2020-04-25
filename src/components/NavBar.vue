@@ -78,11 +78,11 @@ a {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-.isActive {
-  opacity: 1;
-  padding-bottom: 0.5em;
-}
 @media only screen and (min-width: 768px) {
+  .isActive {
+    opacity: 1;
+    padding-bottom: 0.5em;
+  }
   a {
     padding: 1.2em 1em 0.8em 1em;
     opacity: 0.4;
