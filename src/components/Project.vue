@@ -91,13 +91,25 @@ a {
   .project {
     width: 100%;
     height: 100%;
-    justify-content: flex-end;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
     align-items: flex-start;
   }
   p {
-    width: 20vw;
+    width: 50%;
+    min-height: 96px;
     padding: 1em;
     margin: 0;
+    display: none;
+  }
+  .project:hover > p {
+    display: block;
+  }
+  a {
+    height: 64px;
+    width: 64px;
+    font-size: 32px;
+    margin: 16px;
   }
 }
 </style>

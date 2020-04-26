@@ -1,9 +1,9 @@
 <template>
   <div class="sub-skills">
     <i :class="icon"></i>
-    <h4>
+    <h3>
       {{ title }}
-    </h4>
+    </h3>
     <p>{{ content }}</p>
   </div>
 </template>
@@ -27,7 +27,7 @@ export default {
   align-items: center;
 }
 h2,
-h4 {
+h3 {
   color: var(--dark-blue);
 }
 i {

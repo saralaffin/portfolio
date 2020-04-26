@@ -11,7 +11,7 @@
       />
       <sub-skills
         icon="icon-edit"
-        title="Frameworks/libraries"
+        title="Frameworks/Libraries"
         content="Bootstrap ★ Django ★ Express ★ Flask ★ MERN Stack ★ Mongoose ★
               Node.js ★ Peewee ★ React ★ Vue"
       />

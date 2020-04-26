@@ -46,6 +46,7 @@ export default {
   box-sizing: border-box;
   margin: 0;
   font-family: "Courier New", Courier, monospace;
+  /* font-family: Helvetica, sans-serif; */
 }
 article {
   min-height: 100vh;

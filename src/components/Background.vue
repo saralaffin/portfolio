@@ -6,33 +6,34 @@
     <div class="text-container">
       <p>
         I've always been drawn to fixing and creating. As a child, I enjoyed
-        building things with my dad. In high school, I fell in love with modular
-        origami.
+        <b>building</b> things with my dad. In high school, I fell in love with
+        modular origami.
       </p>
       <i class="icon-wrench"></i>
       <p>
         I studied marine engineering in college, earning my Masters and
-        Bachelors from the University of Michigan. Success came in the form of
-        all A's, Summa Cum Laude.
+        Bachelors from the University of Michigan.
+        <b>Academic achievement</b> came in the form of all A's, Summa Cum
+        Laude.
       </p>
       <i class="icon-book"></i>
       <p>
-        I've held a variety of roles in the marine engineering field, mainly in
-        the form of internships. After studidying and working almost non-stop
-        for 5 years, I had a new problem to solve: burn-out.
+        I've held a variety of roles in the <b>marine engineering</b> field,
+        mainly in the form of internships. After studidying and working almost
+        non-stop for 5 years, I had a new problem to solve: burn-out.
       </p>
-      <i class="icon-fire"></i>
+      <i class="icon-anchor"></i>
       <p>
         Next, I tried something more hands-on. 'Sharpened a different saw', if
         you will. I spent 3 seasons on conservation crews out in Colorado.
-        Running a chainsaw, and leading crews, presented their own obstacles
-        that helped me grow and solve problems in unimaginable ways.
+        Running a chainsaw, and <b>leading crews</b>, presented their own
+        obstacles that helped me grow and solve problems in unimaginable ways.
       </p>
       <i class="icon-leaf"></i>
       <p>
         Now I'm returning to my engineering roots in the form of a software
         engineer! My dream is to continue to build (and fix) challenging
-        projects. What solutions can I help you find?
+        projects. What <b>solutions</b> can I help you find?
       </p>
       <i class="icon-lightbulb"></i>
     </div>
@@ -71,6 +72,9 @@ a {
   margin: 0.2em;
 }
 @media only screen and (min-width: 992px) {
+  b {
+    font-size: 24px;
+  }
   p {
     width: 588px;
     padding-left: 16px;
