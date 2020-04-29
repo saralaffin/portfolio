@@ -3,10 +3,10 @@
     <h2>
       Keep in touch!
     </h2>
-    <a href="Sara_Laffin_Resume.pdf" target="_blank">
-      Resume
-    </a>
-    <p>I'm looking for full time work</p>
+    <p>
+      I'm looking for front-end positions using React, but excited to apply my
+      skill set to full-stack or back-end positions as well
+    </p>
     <div class="contact-links">
       <a href="https://www.linkedin.com/in/saralaffin" target="_blank"
         ><i class="icon-linkedin"></i
@@ -14,7 +14,11 @@
       <a href="https://github.com/saralaffin" target="_blank"
         ><i class="icon-github"></i
       ></a>
+      <a href="mailto:sarala@umich.edu"><i class="icon-envelope"></i></a>
     </div>
+    <a href="Sara_Laffin_Resume.pdf" target="_blank">
+      Resume
+    </a>
   </article>
 </template>
 
@@ -36,9 +40,13 @@ h2 {
 }
 p {
   padding-top: 2em;
+  max-width: 600px;
+  text-align: center;
+  line-height: 2em;
 }
 .contact-links {
   display: flex;
+  margin-bottom: 1vh;
 }
 .contact-links a {
   border-radius: 10vh;

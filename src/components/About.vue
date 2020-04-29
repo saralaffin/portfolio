@@ -14,8 +14,8 @@
           Washington, DC. This portfolio showcases a few of my projects.
         </p>
         <p>
-          With a master's in engineering and a few years serving with
-          Americorps, I bring hard work and an analytical mind to every team.
+          With a Master's in engineering and a few years serving with
+          AmeriCorps, I bring hard work and an analytical mind to every team.
         </p>
         <a href="Sara_Laffin_Resume.pdf" target="_blank">
           Resume

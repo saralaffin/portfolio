@@ -11,20 +11,19 @@
       </p>
       <i class="icon-wrench"></i>
       <p>
-        I studied marine engineering in college, earning my Masters and
-        Bachelors from the University of Michigan.
-        <b>Academic achievement</b> came in the form of all A's, Summa Cum
-        Laude.
+        I studied marine engineering in college, earning my Master's and
+        Bachelor's from the University of Michigan.
+        <b>Academic achievement</b> came in the form of all As, Summa Cum Laude.
       </p>
       <i class="icon-book"></i>
       <p>
         I've held a variety of roles in the <b>marine engineering</b> field,
-        mainly in the form of internships. After studidying and working almost
+        mainly in the form of internships. After studying and working almost
         non-stop for 5 years, I had a new problem to solve: burn-out.
       </p>
       <i class="icon-anchor"></i>
       <p>
-        Next, I tried something more hands-on. 'Sharpened a different saw', if
+        Next, I tried something more hands-on, 'sharpened a different saw', if
         you will. I spent 3 seasons on conservation crews out in Colorado.
         Running a chainsaw, and <b>leading crews</b>, presented their own
         obstacles that helped me grow and solve problems in unimaginable ways.

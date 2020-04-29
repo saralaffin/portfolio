@@ -5,21 +5,20 @@
     </h2>
     <div class="skills-flex">
       <sub-skills
-        icon="icon-pencil"
-        title="Languages"
-        content="HTML ★ CSS ★ JavaScript ★ Python ★ SQL"
+        icon="icon-html5"
+        title="Front-end"
+        content="HTML ★ CSS ★ JavaScript ★ React ★ Vue ★ Bootstrap ★ Netlify ★ Responsive Design ★ Storybook"
       />
       <sub-skills
-        icon="icon-edit"
-        title="Frameworks/Libraries"
-        content="Bootstrap ★ Django ★ Express ★ Flask ★ MERN Stack ★ Mongoose ★
-              Node.js ★ Peewee ★ React ★ Vue"
+        icon="icon-gears"
+        title="Back-end"
+        content="Node.js ★ Express ★ MongoDB ★ Mongoose ★
+              Python ★ Flask ★ Django ★ Peewee ★ SQL ★ PostgreSQL ★ RESTful API ★ Heroku"
       />
       <sub-skills
-        icon="icon-envelope-alt"
+        icon="icon-linux"
         title="and more!"
-        content="Ubuntu Linux ★ Git ★ Github ★ Heroku ★ MongoDB ★ Netlify ★ PostgreSQL ★ Rapid Prototyping ★ Responsive
-              Design ★ RESTful API ★ Storybook ★ Visual Studio Code"
+        content="Ubuntu Linux ★ Git ★ GitHub ★ Rapid Prototyping  ★ Visual Studio Code ★ MERN Stack "
       />
     </div>
   </article>

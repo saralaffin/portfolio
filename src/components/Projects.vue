@@ -13,13 +13,13 @@
       />
       <project
         id="cotripper"
-        description="Contributed to an open source, full stack travel application for single mothers built using Django and React"
+        description="Contributed to an open source, full-stack travel application for single mothers built using Django and React"
         githubURL="https://github.com/CotripperPlatform/CoTrip"
         deployedURL="https://cotripper.netlify.app/"
       />
       <project
         id="hanoi"
-        description="Built front end game using HTML, CSS, and vanilla JavaScript"
+        description="Built front-end game using HTML, CSS, and vanilla JavaScript"
         githubURL="https://github.com/saralaffin/front-end-game-tower-of-hanoi"
         deployedURL="https://saralaffin.github.io/front-end-game-tower-of-hanoi/"
       />
